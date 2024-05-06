@@ -1,0 +1,105 @@
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+.user-card-main{
+    /* border: 2px solid red; */
+    /* border: 1px solid #fee394; */
+    height: 210px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    /* animation: shake 0.5s;
+    animation-iteration-count: infinite; */
+}
+.user-card-main:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+.user-avatar-container{
+    width: 100%;
+    height: 50px;
+    
+}
+.user-first-name{
+    color: #e96851;
+}
+.user-last-name{
+    color: #e96851;
+}
+.user-buttons{
+    width: 100%;
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(3,1fr);
+    height: 40px;
+    gap: 5px;
+    /* border: 2px solid red */
+}
+.user-buttons > select{
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: #fee394;
+    color: black;
+    font-size: 12px;
+    font-weight: 900;
+    /* background: linear-gradient(to right, #e96851 50%, #fee394 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 1s ease-out;
+    text-align: center; */
+    text-align: center;
+}
+.user-buttons > button:hover{
+    background-position: left bottom;
+    color: white;
+}
+.user-lunch-section{
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    /* border:2px solid red; */
+}
+.user-lunch-section > select{
+    width: 100%;
+    height: 40px;
+    border:none;
+    border-radius: 4px;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background-color: #e96851;
+}
+.user-lunch-section > button{
+    width: 100%;
+    height: 40px;
+    border:none;
+    border-radius: 4px;
+    background: linear-gradient(to right, #fee394 50%, #e96851 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 1s ease-out;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+.user-lunch-section > button:hover{
+    background-position: left bottom;
+    color: black;
+}

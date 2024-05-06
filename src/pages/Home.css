@@ -1,0 +1,73 @@
+#brand-main{
+    width: 95%;
+    /* border:2px solid red; */
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   align-content: center;
+   gap: 20px;
+   margin: 20px auto;
+}
+/* #brand-main > div{
+    border: 2px solid red;
+} */
+
+.brand_logo{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 300px;
+}
+.brand_logo > img{
+    width: 100%;
+    height: 300px;
+}
+.typewritter-div{
+    height: 100px;
+    margin-top: -80px;
+    /* border: 2px solid green; */
+}
+#typewriter{
+    font-family: "Londrina Shadow", sans-serif;
+    color: #e96851;
+    font-size: 56px;
+    text-align: center;
+}
+.tea-video-container > img{
+    width: 100%;
+    height: 300px;
+}
+.home-buttons{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+}
+.home-buttons > button{
+    width: 15%;
+    height: 45px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: #e96851;
+    
+    background: linear-gradient(to right, #fee394 50%, #e96851 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 1s ease-out;
+    margin-top: 20px;
+}
+.home-buttons > button:hover{
+    background-position: left bottom;
+    color: black;
+}
+.user-main{
+    width: 90%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-content: center;
+    gap: 30px;
+}

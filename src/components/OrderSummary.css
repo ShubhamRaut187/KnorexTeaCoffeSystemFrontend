@@ -1,0 +1,25 @@
+.order-summary-main{
+    width: 90%;
+    height: 150px;
+    /* border: 2px solid red; */
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    align-content: center;
+    border-radius: 10px;
+}
+.order-card{
+    /* border: 2px solid red; */
+    border-right: 0.5px solid #e96851;
+    border-left: 0.5px solid #e96851;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.order-card-head > h3{
+    text-align: center;
+    color: #e96851;
+}

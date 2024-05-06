@@ -1,0 +1,21 @@
+.order-table-main{
+    width: 90%;
+    /* border: 2px solid red; */
+    margin: 40px auto;
+}
+.order-table{
+    width: 100%;
+}
+.order-table-row{
+    text-align: center;
+    height: 50px;
+}
+.order-table-row:nth-child(odd){
+    /* background-color: #e3e3e3; */
+    background-color: #fee394;
+}
+.order-table-head-row{
+    height: 50px;
+    background-color: #e96851;
+    color: white;
+}
