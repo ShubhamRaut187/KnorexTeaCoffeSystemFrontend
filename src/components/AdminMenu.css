@@ -1,0 +1,22 @@
+.admin-create-menu-main{
+    height: 300px;
+    /* border: 2px solid red;x */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+}
+.admin-create-menu-main > h2 {
+    color: #e96851;
+    font-weight: 900;
+    text-align: center;
+}
+.admin-create-menu-main > form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

@@ -1,0 +1,50 @@
+.admin-create-user-main{
+    height: 300px;
+    /* border: 2px solid red;x */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+}
+.admin-create-user-main > h2{
+    color: #e96851;
+    font-weight: 900;
+    text-align: center;
+}
+.admin-create-user-main > form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.admin-input-field{
+    width: 50%;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: #edf7f6;
+    color: #e96851;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.admin-submit-button{
+    width: 25%;
+    margin: 10px auto;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(to right, #fee394 50%, #e96851 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 1s ease-out;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+}
+.admin-submit-button:hover{
+    background-position: left bottom;
+    color: black;
+}

@@ -36,7 +36,10 @@ function Usercard(props) {
                     <option value="thali">Thali</option>
                     <option value="rice plate">Rice Plate</option>
                </select>
-               <button><i className="fa-solid fa-check fa-lg" style={{color:'white'}}></i>&nbsp;Place Order</button>
+              <input type='text' placeholder='Note'/>
+            </div>
+            <div className='place-order-container'>
+            <button><i className="fa-solid fa-check fa-lg" style={{color:'white'}}></i>&nbsp;Place Order</button>
             </div>
         </div>
     );

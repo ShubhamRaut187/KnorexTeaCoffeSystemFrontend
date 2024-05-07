@@ -1,0 +1,34 @@
+.admin-dashboard-buttons{
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.admin-dashboard-buttons > button{
+    width: 20%;
+    height: 45px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    background: linear-gradient(to right, #fee394 50%, #e96851 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 1s ease-out;
+}
+.admin-dashboard-buttons > button:hover{
+    background-position: left bottom;
+    color: black;
+}
+.admin-operations-main{
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(2,1fr);
+    /* border: 2px solid red; */
+    gap: 30px;
+}
