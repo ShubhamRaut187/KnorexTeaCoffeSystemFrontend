@@ -2,7 +2,7 @@ let initialLogin = {
     status:false,
     loginRouteConfig:{
         path:'/login',
-        name:Login
+        name:'Login'
     }
 }
 
